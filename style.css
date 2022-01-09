@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Signika:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+*{  margin:0;
+    padding: 0;}
+
+
+nav{
+    position: relative;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80px;
+}
+
+.logo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0px 50px;
+    color: white;
+}
+
+.menu-item{
+
+    display: flex;
+}
+
+.menu-item li {
+    margin: 0px 20px;
+    list-style: none;
+    padding: 6px 10px;
+    margin: 0px 40px;
+}
+
+
+
+.menu-item li a:hover{
+    color:cyan
+}
+
+
+.menu-item li a{
+    
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+}
+
+.menu-btn i {
+    display: none;
+}
+
+.check{
+    display: none;
+}
+
+
+.slider img{
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    color: black;
+}
+.text{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    padding: 6px 25px;
+    border-radius: 4px;
+}
+
+.text2{
+    
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: 500;
+    font-size: 30px;    
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    padding: 6px 25px;
+    
+}
+
+.text:hover{
+    background-color: cyan;
+}
+
+.text2:hover{
+    background-color: cyan;
+}
+
+.topic{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', "cursive";
+    word-spacing: 2px;
+    font-size: 30px;
+}
+
+.card{
+    margin-top: 30px;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.card1{
+    border: 2px solid rgb(211,211,214);
+    background-color: #ffff;
+    font-size: 18px;
+    width: 300px;
+    padding: 48px 12px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.heading{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 10px;
+    font-weight: 400;
+    color: black;
+
+}
+
+.para{
+    margin-top: 10px;
+    font-family: 'The Nautigal', cursive;;
+
+}
+
+.card1 img{
+    width : 20px;
+    height: 20px;
+    
+}
+
+
+.card2{
+    border: 2px solid rgb(211,211,214);
+    background-color: #ffff;
+    font-size: 18px;
+    width: 300px;
+    padding: 48px 12px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.card2 img {
+    width: 20px;
+    height: 20px;
+}
+
+.card3{
+    border: 2px solid rgb(211,211,214);
+    background-color: #ffff;
+    font-size: 18px;
+    width: 300px;
+    padding: 48px 12px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.card3 img {
+
+    width: 20px;
+    height: 20px;
+}
+
+.topic2{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+
+.construction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    /* border: 2px solid grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt{
+margin-bottom: 10px;
+color: black;
+font-family: "ubuntu";    
+margin-top: 10px;
+color: white;
+}
+
+.icons a img {
+    width: 20px;
+    height: 20px;
+    padding: 0px 20px;
+}
+
+.icons{
+    margin: 0px 15px;
+}
+
+
+
