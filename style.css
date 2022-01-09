@@ -219,14 +219,15 @@ margin-top: 10px;
 color: white;
 }
 
+
+
+.icons{
+    margin: 0px 15px;
+}
 .icons img {
     width: 20px;
     height: 20px;
     padding: 0px 20px;
-}
-
-.icons{
-    margin: 0px 15px;
 }
 
 
